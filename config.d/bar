@@ -8,7 +8,7 @@ bar {
 
 	colors {
 		statusline $primary_text
-		background $secondary_text
+		background $a_secondary_text
 
 		focused_workspace $primary_light $primary_dark $primary_text
 		active_workspace $secondary_light $secondary_dark $primary_text

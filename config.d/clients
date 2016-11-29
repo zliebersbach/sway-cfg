@@ -1,4 +1,4 @@
 ### Clients
-client.focused $primary_light $primary_dark $primary_text $primary_light $primary_dark
-client.focused_inactive $secondary_light $secondary_dark $primary_text $secondary_light $secondary_dark
-client.unfocused $secondary_dark $secondary_text $primary_text $secondary_dark $secondary_text
+client.focused $a_primary_light $a_primary_dark $primary_text $a_primary_light $a_primary_dark
+client.focused_inactive $a_secondary_light $a_secondary_dark $primary_text $a_secondary_light $a_secondary_dark
+client.unfocused $a_secondary_dark $a_secondary_text $primary_text $a_secondary_dark $a_secondary_text

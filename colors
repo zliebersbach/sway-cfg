@@ -8,3 +8,10 @@ set $secondary_light #616161
 set $secondary_dark #424242
 set $primary_text #FFFFFF
 set $secondary_text #212121
+
+set $a_primary_light #5C6BC077
+set $a_primary_dark #3F51B577
+set $a_secondary_light #61616177
+set $a_secondary_dark #42424277
+set $a_primary_text #FFFFFF77
+set $a_secondary_text #21212177
