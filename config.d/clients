@@ -1,0 +1,4 @@
+### Clients
+client.focused $primary_light $primary_dark $primary_text $primary_light $primary_dark
+client.focused_inactive $secondary_light $secondary_dark $primary_text $secondary_light $secondary_dark
+client.unfocused $secondary_dark $secondary_text $primary_text $secondary_dark $secondary_text

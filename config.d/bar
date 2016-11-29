@@ -1,0 +1,15 @@
+### Status bar
+#
+# Read `man 5 sway-bar` for more information about this section.
+#
+bar {
+	position top
+	colors {
+		statusline $primary_text
+		background $secondary_text
+
+		focused_workspace $primary_light $primary_dark $primary_text
+		active_workspace $secondary_light $secondary_dark $primary_text
+		inactive_workspace $secondary_dark $secondary_text $primary_text
+	}
+}
