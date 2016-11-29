@@ -11,10 +11,9 @@ set $up l
 set $right semicolon
 # Your preferred terminal emulator
 set $term gnome-terminal
-# Your preferred application launcher
-set $menu dmenu_run
-# Your preferred font
+# Your preferred fonts
 set $font pango:Roboto Mono 8
+set $font_dmenu Roboto Mono-8
 
 ### Includes
 include ~/.sway/colors
@@ -59,8 +58,8 @@ hide_edge_borders both
 	# kill focused window
 	bindsym $mod+Shift+q kill
 
-	# start your launcher
-	bindsym $mod+d exec $menu
+	# start dmenu launcher
+	bindsym $mod+d exec dmenu_run -i -fn \"$font_dmenu\" -sb \"$primary_dark\" -sf \"$primary_text\" -nb \"$secondary_text\" -nf \"$primary_text\"
 
 	# Drag floating windows by holding down $mod and left mouse button.
 	# Resize them with right mouse button + $mod.
