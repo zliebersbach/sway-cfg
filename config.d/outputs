@@ -13,3 +13,5 @@ output * bg ~/.sway/wallpaper/default.png fill
 #
 output VGA-1 res 1280x1024 pos 0,0
 output DVI-I-1 res 1440x900 pos 1280,124
+workspace 1 output VGA-1
+workspace 2 output DVI-I-1

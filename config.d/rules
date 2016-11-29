@@ -1,0 +1,4 @@
+### Client rules
+assign [class="chromium-browser"] → 1
+assign [class="Navigator"] → 1
+assign [class="emacs"] → 2
