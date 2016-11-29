@@ -13,10 +13,15 @@ set $right semicolon
 set $term gnome-terminal
 # Your preferred application launcher
 set $menu dmenu_run
+# Your preferred font
+set $font pango:Roboto Mono 8
 
 ### Includes
 include ~/.sway/colors
 include ~/.sway/config.d/*
+
+### Fonts
+font $font
 
 ### Input configuration
 #

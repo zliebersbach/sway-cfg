@@ -4,6 +4,8 @@
 #
 bar {
 	position top
+	font $font
+
 	colors {
 		statusline $primary_text
 		background $secondary_text
