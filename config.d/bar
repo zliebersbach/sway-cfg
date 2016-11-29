@@ -5,6 +5,7 @@
 bar {
 	position top
 	font $font
+	height 16
 
 	colors {
 		statusline $primary_text
