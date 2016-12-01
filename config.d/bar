@@ -6,6 +6,7 @@ bar {
 	position top
 	font $font
 	height 16
+	status_command ~/.sway/bin/bar.sh
 
 	colors {
 		statusline $primary_text
