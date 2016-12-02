@@ -10,7 +10,7 @@ set $down k
 set $up l
 set $right semicolon
 # Your preferred terminal emulator
-set $term urxvt
+set $term urxvtc
 # Your preferred fonts
 set $font pango:Roboto Mono 8
 set $font_dmenu Roboto Mono-8
@@ -21,6 +21,9 @@ include ~/.sway/config.d/*
 
 ### Fonts
 font $font
+
+### Load resources
+exec_always xrdb -merge ~/.Xresources
 
 ### Layout
 #

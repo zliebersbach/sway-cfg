@@ -1,3 +1,4 @@
 exec google-musicmanager
 exec nextcloud
 exec transmission-gtk -m
+exec urxvtd -q -o -f

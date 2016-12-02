@@ -1,0 +1,9 @@
+! Appearance
+URxvt*scrollBar: false
+URxvt*font: xft:Roboto Mono:size=8
+URxvt*depth: 32
+URxvt*background: rgba:2100/2100/2100/7700
+URxvt*foreground: #FFF
+
+! Shell
+URxvt*cursorBlink: true

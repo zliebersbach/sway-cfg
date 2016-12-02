@@ -1,5 +1,6 @@
 DIR:=$(realpath $(dir $(lastword $(MAKEFILE_LIST))))
 LINK=$(HOME)/.sway
+XRES_LINK=$(HOME)/.Xresources
 
 .PHONY: clean install uninstall default fetch-updates update
 
@@ -8,13 +9,14 @@ clean:
 
 install:
 	ln -s $(DIR) $(LINK)
+	ln -s $(DIR)/Xresources $(XRES_LINK)
 
-uninstall: $(LINK)
-	rm $(LINK)
+uninstall:
+	unlink $(LINK)
+	unlink $(XRES_LINK)
 
 fetch-updates:
 	git pull --rebase --prune
-	git submodule update --init --recursive
 
 update: clean fetch-updates
 
