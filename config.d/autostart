@@ -1,3 +1,4 @@
+exec emacs --daemon
 exec google-musicmanager
 exec nextcloud
 exec transmission-gtk -m
