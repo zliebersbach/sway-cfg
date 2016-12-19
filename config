@@ -196,5 +196,5 @@ bindsym $mod+r mode "resize"
 # Volume and media:
 #
 	bindsym XF86AudioMute exec amixer -q set Master toggle
-	bindsym XF86AudioLowerVolume exec amixer -q set Master 10%- unmute
-	bindsym XF86AudioRaiseVolume exec amixer -q set Master 10%+ unmute
+	bindsym XF86AudioLowerVolume exec amixer -q set Master 5%- unmute
+	bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+ unmute
