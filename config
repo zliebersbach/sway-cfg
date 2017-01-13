@@ -12,7 +12,7 @@ set $right semicolon
 # Your preferred terminal emulator
 set $term urxvtc
 # Your preferred editor
-set $editor emacsclient -c
+set $editor emacs
 # Your preferred fonts
 set $font pango:Roboto Mono 8
 set $font_dmenu Roboto Mono-8
